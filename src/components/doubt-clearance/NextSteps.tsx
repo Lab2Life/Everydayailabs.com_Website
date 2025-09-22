@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Phone, Globe } from "lucide-react";
+import { ArrowRight, Phone, Mail } from "lucide-react";
 import { useState } from "react";
 import BookingModal from "@/components/ui/booking-modal";
 
@@ -38,43 +38,36 @@ const NextSteps = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                <Button
-                  variant="gradient"
-                  size="xl"
-                  className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 group"
-                  onClick={handleBookingClick}
-                >
-                  Book Your Doubt Clearance Session
-                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <a href="tel:+919159007007">
+                  <Button
+                    variant="gradient"
+                    size="xl"
+                    className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 group"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call +91-9159007007
+                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </a>
 
-                <Button
-                  variant="outline"
-                  size="xl"
-                  className="border-orange-300 text-orange-600 hover:bg-orange-50"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call +91-9159007007
-                </Button>
+                <a href="mailto:hello@everydayailabs.com">
+                  <Button
+                    variant="outline"
+                    size="xl"
+                    className="border-orange-300 text-orange-600 hover:bg-orange-50"
+                  >
+                    <Mail className="w-5 h-5 mr-2" />
+                    Connect with us: hello@everydayailabs.com
+                  </Button>
+                </a>
               </div>
             </div>
 
             <div className="border-t border-orange-200 pt-8 text-center">
               <p className="text-lg font-medium text-gray-700 mb-4">
-                \"This is just one way AI can help. If you ever wonder, 'Can AI
-                solve my problem?', think of EverydayAiLabs.com first.\"
+                "This is just one way AI can help. If you ever wonder, 'Can AI
+                solve my problem?', think of EverydayAiLabs.com first."
               </p>
-
-              <div className="flex items-center justify-center space-x-6 text-muted-foreground">
-                <div className="flex items-center space-x-2">
-                  <Globe className="w-4 h-4" />
-                  <span>EverydayAiLabs.com</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <Phone className="w-4 h-4" />
-                  <span>+91-9159007007</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>

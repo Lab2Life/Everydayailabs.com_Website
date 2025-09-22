@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Phone, Globe, Calendar, Eye } from "lucide-react";
+import { ArrowRight, Phone, Mail, Calendar, Eye } from "lucide-react";
 
 const AuditNextStepSection = () => {
   return (
@@ -10,10 +10,12 @@ const AuditNextStepSection = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Next Step</h2>
             <p className="text-xl text-muted-foreground mb-8">
-              One decision today gives you a 360° digital snapshot of your business.
+              One decision today gives you a 360° digital snapshot of your
+              business.
               <br />
               <span className="font-semibold text-blue-600">
-                From there, you choose how to grow, with DS365, automation, or an AI Officer.
+                From there, you choose how to grow, with DS365, automation, or
+                an AI Officer.
               </span>
             </p>
           </div>
@@ -26,23 +28,29 @@ const AuditNextStepSection = () => {
                     <Calendar className="w-8 h-8 text-blue-600" />
                   </div>
                   <h3 className="font-bold mb-2">Book Audit</h3>
-                  <p className="text-muted-foreground">Schedule your 1-2 hour assessment</p>
+                  <p className="text-muted-foreground">
+                    Schedule your 1-2 hour assessment
+                  </p>
                 </div>
-                
+
                 <div className="flex flex-col items-center">
                   <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mb-4">
                     <Eye className="w-8 h-8 text-blue-600" />
                   </div>
                   <h3 className="font-bold mb-2">Get Clarity</h3>
-                  <p className="text-muted-foreground">Receive detailed PDF report in 4 days</p>
+                  <p className="text-muted-foreground">
+                    Receive detailed PDF report in 4 days
+                  </p>
                 </div>
-                
+
                 <div className="flex flex-col items-center">
                   <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mb-4">
                     <ArrowRight className="w-8 h-8 text-blue-600" />
                   </div>
                   <h3 className="font-bold mb-2">Choose Growth</h3>
-                  <p className="text-muted-foreground">Decide your next digital step</p>
+                  <p className="text-muted-foreground">
+                    Decide your next digital step
+                  </p>
                 </div>
               </div>
             </CardContent>
@@ -50,23 +58,36 @@ const AuditNextStepSection = () => {
 
           <div className="text-center space-y-6">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="gradient" size="lg" className="text-lg px-8 py-6 bg-gradient-to-r from-blue-600 to-purple-600">
-                <Phone className="w-5 h-5 mr-2" />
-                Call +91-9159007007
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-blue-500 text-blue-600">
-                <Globe className="w-5 h-5 mr-2" />
-                Visit EverydayAiLabs.com
-              </Button>
+              <a href="tel:+919159007007">
+                <Button
+                  variant="gradient"
+                  size="lg"
+                  className="text-lg px-8 py-6 bg-gradient-to-r from-blue-600 to-purple-600"
+                >
+                  <Phone className="w-5 h-5 mr-2" />
+                  Call +91-9159007007
+                </Button>
+              </a>
+              <a href="mailto:hello@everydayailabs.com">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="text-lg px-8 py-6 border-blue-500 text-blue-600"
+                >
+                  <Mail className="w-5 h-5 mr-2" />
+                  Connect with us: hello@everydayailabs.com
+                </Button>
+              </a>
             </div>
-            
+
             <div className="bg-blue-50 rounded-lg p-6">
               <p className="text-lg italic">
-                "This is just one way AI can help. If you ever wonder, 'Can AI solve my problem?', 
-                <span className="font-semibold text-blue-600"> think of EverydayAiLabs first."</span>
-              </p>
-              <p className="text-blue-600 font-semibold mt-2">
-                📍 EverydayAiLabs.com | +91-9159007007
+                "This is just one way AI can help. If you ever wonder, 'Can AI
+                solve my problem?',
+                <span className="font-semibold text-blue-600">
+                  {" "}
+                  think of EverydayAiLabs first."
+                </span>
               </p>
             </div>
           </div>

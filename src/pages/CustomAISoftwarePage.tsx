@@ -11,7 +11,7 @@ import {
   Target,
   Workflow,
   Phone,
-  Globe,
+  Mail,
   MessageSquare,
   DollarSign,
   Clock,
@@ -116,16 +116,12 @@ const CustomAISoftwarePage = () => {
                 "From juggling tools to one simple system - streamline your
                 business with AI."
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex justify-center">
                 <Button variant="gradient" size="lg" asChild>
                   <Link to="/contact">
                     <MessageSquare className="w-5 h-5 mr-2" />
                     Get Your Custom Solution
                   </Link>
-                </Button>
-                <Button variant="outline" size="lg">
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call +91-9159007007
                 </Button>
               </div>
             </div>
@@ -443,15 +439,21 @@ const CustomAISoftwarePage = () => {
                   solve my problem?', think of EverydayAiLabs first."
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                  <div className="flex items-center">
-                    <Globe className="w-5 h-5 mr-2" />
-                    <span>EverydayAiLabs.com</span>
-                  </div>
+                  <a
+                    href="mailto:hello@everydayailabs.com"
+                    className="flex items-center hover:text-blue-200 transition-colors"
+                  >
+                    <Mail className="w-5 h-5 mr-2" />
+                    <span>hello@everydayailabs.com</span>
+                  </a>
                   <span className="hidden sm:block">|</span>
-                  <div className="flex items-center">
+                  <a
+                    href="tel:+919159007007"
+                    className="flex items-center hover:text-blue-200 transition-colors"
+                  >
                     <Phone className="w-5 h-5 mr-2" />
                     <span>+91-9159007007</span>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>

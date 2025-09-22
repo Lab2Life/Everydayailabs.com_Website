@@ -9,6 +9,14 @@ const HeroSection = () => {
   const handleBookingClick = () => {
     setIsBookingModalOpen(true);
   };
+
+  const scrollToPricing = () => {
+    const pricingElement = document.querySelector("#pricing-section");
+    if (pricingElement) {
+      pricingElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-20">
       <div className="container mx-auto px-4">
@@ -40,21 +48,14 @@ const HeroSection = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center">
             <Button
               size="lg"
               className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-8 py-6 text-lg group"
-              onClick={handleBookingClick}
+              onClick={scrollToPricing}
             >
               Book Your Team Session
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="px-8 py-6 text-lg border-blue-200 hover:bg-blue-50"
-            >
-              See Demo Content
             </Button>
           </div>
 

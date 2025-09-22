@@ -4,13 +4,14 @@ import { IndianRupee, Clock, Users, Monitor } from "lucide-react";
 
 const PricingSection = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-green-50 to-emerald-50">
+    <section
+      id="pricing-section"
+      className="py-16 bg-gradient-to-b from-green-50 to-emerald-50"
+    >
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              💰 Pricing
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">💰 Pricing</h2>
             <p className="text-xl text-muted-foreground">
               Affordable AI education for everyone
             </p>
@@ -25,9 +26,7 @@ const PricingSection = () => {
                 <div className="text-4xl font-bold text-emerald-600 mb-2">
                   ₹1,000
                 </div>
-                <p className="text-lg text-muted-foreground">
-                  per person
-                </p>
+                <p className="text-lg text-muted-foreground">per person</p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -78,7 +77,9 @@ const PricingSection = () => {
                 </h4>
                 <div className="space-y-2 text-sm text-emerald-600">
                   <p>• Investment: ₹1,000 (one-time)</p>
-                  <p>• Daily time savings: 2 hours × ₹500/hour value = ₹1,000/day</p>
+                  <p>
+                    • Daily time savings: 2 hours × ₹500/hour value = ₹1,000/day
+                  </p>
                   <p>• Monthly value: ₹30,000</p>
                   <p className="font-semibold text-emerald-700 text-base pt-2">
                     ROI: Your investment back in just one day

@@ -3,7 +3,16 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Rocket, Lightbulb, TrendingUp, DollarSign, Users, Globe, Phone } from "lucide-react";
+import {
+  ArrowRight,
+  Rocket,
+  Lightbulb,
+  TrendingUp,
+  DollarSign,
+  Users,
+  Mail,
+  Phone,
+} from "lucide-react";
 
 const EntrepreneursPage = () => {
   return (
@@ -18,17 +27,23 @@ const EntrepreneursPage = () => {
                 <Rocket className="w-4 h-4" />
                 AI for Aspiring Entrepreneurs
               </div>
-              
+
               <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 bg-clip-text text-transparent leading-tight">
                 From Business Idea to Market Leader
               </h1>
-              
+
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-                <span className="font-semibold text-orange-600">Let AI validate ideas, automate operations, and scale your startup faster than ever.</span>
+                <span className="font-semibold text-orange-600">
+                  Let AI validate ideas, automate operations, and scale your
+                  startup faster than ever.
+                </span>
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button size="lg" className="bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 text-white px-8 py-6 text-lg group">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 text-white px-8 py-6 text-lg group"
+                >
                   Launch Your AI-Powered Business
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -44,7 +59,7 @@ const EntrepreneursPage = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-12 text-red-600">
                 ❌ Daily Entrepreneurial Struggles
               </h2>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {[
                   "Uncertain about business idea validation and market demand",
@@ -52,9 +67,12 @@ const EntrepreneursPage = () => {
                   "Limited resources for market research and analysis",
                   "Struggling to create professional business plans and presentations",
                   "Manual processes eating up time for strategic thinking",
-                  "Difficulty scaling operations without massive investment"
+                  "Difficulty scaling operations without massive investment",
                 ].map((struggle, index) => (
-                  <Card key={index} className="bg-white border-red-200 hover:shadow-md transition-all duration-300">
+                  <Card
+                    key={index}
+                    className="bg-white border-red-200 hover:shadow-md transition-all duration-300"
+                  >
                     <CardContent className="p-6">
                       <p className="text-red-700 font-medium">{struggle}</p>
                     </CardContent>
@@ -72,7 +90,10 @@ const EntrepreneursPage = () => {
               <div className="bg-gradient-to-r from-red-50 to-green-50 rounded-lg p-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                   <div className="text-center">
-                    <Badge variant="destructive" className="mb-3 text-lg px-4 py-2">
+                    <Badge
+                      variant="destructive"
+                      className="mb-3 text-lg px-4 py-2"
+                    >
                       Before AI
                     </Badge>
                     <div className="space-y-2 text-muted-foreground">
@@ -81,13 +102,16 @@ const EntrepreneursPage = () => {
                       <p>Slow scaling.</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex justify-center">
                     <ArrowRight className="w-12 h-12 text-orange-500" />
                   </div>
-                  
+
                   <div className="text-center">
-                    <Badge variant="default" className="mb-3 text-lg px-4 py-2 bg-green-600">
+                    <Badge
+                      variant="default"
+                      className="mb-3 text-lg px-4 py-2 bg-green-600"
+                    >
                       After AI
                     </Badge>
                     <div className="space-y-2 text-foreground font-semibold">
@@ -107,27 +131,63 @@ const EntrepreneursPage = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">What You Get</h2>
-                <p className="text-xl text-muted-foreground">"Validate → Launch → Scale"</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  What You Get
+                </h2>
+                <p className="text-xl text-muted-foreground">
+                  "Validate → Launch → Scale"
+                </p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
-                  { icon: Lightbulb, title: "AI for Idea Validation", description: "Market research, competitor analysis, and demand forecasting." },
-                  { icon: DollarSign, title: "AI for Business Planning", description: "Financial models, business plans, and investor presentations." },
-                  { icon: Users, title: "AI for Customer Research", description: "Target audience insights and persona development." },
-                  { icon: TrendingUp, title: "AI for Marketing & Sales", description: "Automated lead generation and conversion optimization." },
-                  { icon: Rocket, title: "AI for Operations", description: "Process automation and scalable business systems." }
+                  {
+                    icon: Lightbulb,
+                    title: "AI for Idea Validation",
+                    description:
+                      "Market research, competitor analysis, and demand forecasting.",
+                  },
+                  {
+                    icon: DollarSign,
+                    title: "AI for Business Planning",
+                    description:
+                      "Financial models, business plans, and investor presentations.",
+                  },
+                  {
+                    icon: Users,
+                    title: "AI for Customer Research",
+                    description:
+                      "Target audience insights and persona development.",
+                  },
+                  {
+                    icon: TrendingUp,
+                    title: "AI for Marketing & Sales",
+                    description:
+                      "Automated lead generation and conversion optimization.",
+                  },
+                  {
+                    icon: Rocket,
+                    title: "AI for Operations",
+                    description:
+                      "Process automation and scalable business systems.",
+                  },
                 ].map((item, index) => {
                   const IconComponent = item.icon;
                   return (
-                    <Card key={index} className="hover:shadow-lg transition-all duration-300">
+                    <Card
+                      key={index}
+                      className="hover:shadow-lg transition-all duration-300"
+                    >
                       <CardContent className="p-6">
                         <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-amber-500 rounded-lg flex items-center justify-center mb-4">
                           <IconComponent className="w-6 h-6 text-white" />
                         </div>
-                        <h3 className="text-xl font-semibold mb-3 text-orange-600">{item.title}</h3>
-                        <p className="text-muted-foreground">{item.description}</p>
+                        <h3 className="text-xl font-semibold mb-3 text-orange-600">
+                          {item.title}
+                        </h3>
+                        <p className="text-muted-foreground">
+                          {item.description}
+                        </p>
                       </CardContent>
                     </Card>
                   );
@@ -144,15 +204,20 @@ const EntrepreneursPage = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-12 text-amber-600">
                 🔶 How We Differ
               </h2>
-              
+
               <div className="bg-white rounded-xl p-8 shadow-lg border border-amber-200">
                 <h4 className="text-xl font-bold text-amber-600 mb-4">
                   Startup-Focused AI Strategy
                 </h4>
                 <p className="text-lg text-gray-700 mb-4">
-                  We understand the entrepreneurial journey. Our AI training is designed specifically for 
-                  <span className="font-semibold text-amber-600"> lean startups and resource-constrained entrepreneurs</span>, 
-                  giving you enterprise-level capabilities on a startup budget.
+                  We understand the entrepreneurial journey. Our AI training is
+                  designed specifically for
+                  <span className="font-semibold text-amber-600">
+                    {" "}
+                    lean startups and resource-constrained entrepreneurs
+                  </span>
+                  , giving you enterprise-level capabilities on a startup
+                  budget.
                 </p>
                 <p className="text-amber-600 font-semibold">
                   Idea → Validation → MVP → Growth → Scale
@@ -168,34 +233,45 @@ const EntrepreneursPage = () => {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Next Step</h2>
               <p className="text-xl text-orange-100 mb-8">
-                Stop waiting for the "perfect moment." Start building your AI-powered business today.
+                Stop waiting for the "perfect moment." Start building your
+                AI-powered business today.
               </p>
-              
-              <Button size="lg" className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white px-8 py-6 text-lg group mb-12">
+
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white px-8 py-6 text-lg group mb-12"
+              >
                 Start Your Entrepreneurial Journey
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-                <div className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg">
-                  <Globe className="w-6 h-6 text-orange-300" />
+                <a
+                  href="mailto:hello@everydayailabs.com"
+                  className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
+                >
+                  <Mail className="w-6 h-6 text-orange-300" />
                   <div className="text-left">
-                    <p className="font-semibold">Visit</p>
-                    <p className="text-sm">EverydayAiLabs.com</p>
+                    <p className="font-semibold">Email Us</p>
+                    <p className="text-sm">hello@everydayailabs.com</p>
                   </div>
-                </div>
-                <div className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg">
+                </a>
+                <a
+                  href="tel:+919159007007"
+                  className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
+                >
                   <Phone className="w-6 h-6 text-amber-300" />
                   <div className="text-left">
-                    <p className="font-semibold">Call</p>
+                    <p className="font-semibold">Call Us</p>
                     <p className="text-sm">+91-9159007007</p>
                   </div>
-                </div>
+                </a>
               </div>
 
               <div className="mt-12 pt-8 border-t border-white/20">
                 <p className="text-orange-200 text-lg">
-                  The future belongs to AI-powered entrepreneurs. Join the revolution.
+                  The future belongs to AI-powered entrepreneurs. Join the
+                  revolution.
                 </p>
               </div>
             </div>

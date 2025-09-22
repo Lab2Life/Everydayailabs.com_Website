@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Zap, Heart, Clock } from "lucide-react";
+import { ArrowRight, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const BrandHeroSection = () => {
@@ -60,39 +60,6 @@ const BrandHeroSection = () => {
             >
               <Link to="/services">Explore Our Services</Link>
             </Button>
-          </div>
-
-          {/* Key stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 pt-12 border-t border-border/30">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-8 h-8 text-primary" />
-              </div>
-              <div className="text-3xl font-bold text-primary mb-2">40%</div>
-              <div className="text-muted-foreground">
-                Employee time AI can handle better
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Zap className="w-8 h-8 text-primary" />
-              </div>
-              <div className="text-3xl font-bold text-primary mb-2">
-                2 Years
-              </div>
-              <div className="text-muted-foreground">
-                Risk timeline for non-AI skilled freshers
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <ArrowRight className="w-8 h-8 text-primary" />
-              </div>
-              <div className="text-3xl font-bold text-primary mb-2">Growth</div>
-              <div className="text-muted-foreground">
-                MSMEs gain with AI visibility & efficiency
-              </div>
-            </div>
           </div>
         </div>
       </div>

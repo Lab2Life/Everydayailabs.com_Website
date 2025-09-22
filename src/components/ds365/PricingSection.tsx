@@ -5,7 +5,7 @@ import { IndianRupee, Coffee } from "lucide-react";
 
 const PricingSection = () => {
   return (
-    <section className="py-16 bg-muted/30">
+    <section id="pricing-section" className="py-16 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
@@ -14,8 +14,13 @@ const PricingSection = () => {
 
           <Card className="hover:shadow-xl transition-all duration-300 border-2 border-primary/20">
             <CardHeader className="text-center bg-gradient-primary text-white rounded-t-lg">
-              <CardTitle className="text-2xl mb-2">DS365 - Digital Survival</CardTitle>
-              <Badge variant="secondary" className="text-lg px-4 py-2 bg-white text-primary">
+              <CardTitle className="text-2xl mb-2">
+                DS365 - Digital Survival
+              </CardTitle>
+              <Badge
+                variant="secondary"
+                className="text-lg px-4 py-2 bg-white text-primary"
+              >
                 Product Code: DS365
               </Badge>
             </CardHeader>
@@ -29,8 +34,12 @@ const PricingSection = () => {
                   </div>
                   <div className="flex items-center justify-center gap-2 mb-4">
                     <IndianRupee className="w-8 h-8 text-primary" />
-                    <span className="text-4xl font-bold text-primary">36,500</span>
-                    <span className="text-xl text-muted-foreground">/ year</span>
+                    <span className="text-4xl font-bold text-primary">
+                      36,500
+                    </span>
+                    <span className="text-xl text-muted-foreground">
+                      / year
+                    </span>
                   </div>
                   <Badge variant="outline" className="text-lg px-4 py-2 mb-6">
                     ≈ ₹100/day
@@ -50,7 +59,11 @@ const PricingSection = () => {
                 </div>
 
                 <div className="text-center pt-6">
-                  <Button variant="gradient" size="lg" className="text-lg px-8 py-6 w-full sm:w-auto">
+                  <Button
+                    variant="gradient"
+                    size="lg"
+                    className="text-lg px-8 py-6 w-full sm:w-auto"
+                  >
                     Get Started with DS365
                   </Button>
                 </div>

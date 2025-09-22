@@ -1,11 +1,27 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Heart, Users, BookOpen, BarChart, Home, Phone, Globe } from "lucide-react";
+import {
+  ArrowRight,
+  Heart,
+  BookOpen,
+  Users,
+  BarChart,
+  Home,
+  Mail,
+  Phone,
+} from "lucide-react";
 
 const ParentsPage = () => {
+  const scrollToWhatYouGet = () => {
+    const whatYouGetElement = document.querySelector("#what-you-get");
+    if (whatYouGetElement) {
+      whatYouGetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -18,17 +34,24 @@ const ParentsPage = () => {
                 <Heart className="w-4 h-4" />
                 AI for Parents with School Kids
               </div>
-              
+
               <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-pink-600 to-rose-600 bg-clip-text text-transparent leading-tight">
                 From Stressed Parent to Empowered Guide
               </h1>
-              
+
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-                <span className="font-semibold text-purple-600">Let AI assist your kids' learning, while you focus on nurturing curiosity.</span>
+                <span className="font-semibold text-purple-600">
+                  Let AI assist your kids' learning, while you focus on
+                  nurturing curiosity.
+                </span>
               </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-6 text-lg group">
+
+              <div className="flex justify-center">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-6 text-lg group"
+                  onClick={scrollToWhatYouGet}
+                >
                   Support Your Child's Learning
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -44,7 +67,10 @@ const ParentsPage = () => {
               <div className="bg-gradient-to-r from-red-50 to-green-50 rounded-lg p-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                   <div className="text-center">
-                    <Badge variant="destructive" className="mb-3 text-lg px-4 py-2">
+                    <Badge
+                      variant="destructive"
+                      className="mb-3 text-lg px-4 py-2"
+                    >
                       Before AI
                     </Badge>
                     <div className="space-y-2 text-muted-foreground">
@@ -53,13 +79,16 @@ const ParentsPage = () => {
                       <p>Overwhelm.</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex justify-center">
                     <ArrowRight className="w-12 h-12 text-purple-500" />
                   </div>
-                  
+
                   <div className="text-center">
-                    <Badge variant="default" className="mb-3 text-lg px-4 py-2 bg-green-600">
+                    <Badge
+                      variant="default"
+                      className="mb-3 text-lg px-4 py-2 bg-green-600"
+                    >
                       After AI
                     </Badge>
                     <div className="space-y-2 text-foreground font-semibold">
@@ -75,31 +104,70 @@ const ParentsPage = () => {
         </section>
 
         {/* What You Get */}
-        <section className="py-16 bg-gradient-to-b from-purple-50 to-pink-50">
+        <section
+          id="what-you-get"
+          className="py-16 bg-gradient-to-b from-purple-50 to-pink-50"
+        >
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">What You Get</h2>
-                <p className="text-xl text-muted-foreground">"Assist → Track → Enhance Learning"</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  What You Get
+                </h2>
+                <p className="text-xl text-muted-foreground">
+                  "Assist → Track → Enhance Learning"
+                </p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
-                  { icon: BookOpen, title: "AI for Homework Help", description: "Instant explanations and guidance for assignments." },
-                  { icon: Users, title: "AI for Learning Support", description: "Generate practice exercises and learning games." },
-                  { icon: BarChart, title: "AI for Tracking Progress", description: "Understand areas of strength and improvement." },
-                  { icon: Home, title: "AI for Engagement", description: "Make learning interactive, fun, and personalized." },
-                  { icon: Heart, title: "AI for Parent Empowerment", description: "Support your child confidently without stress." }
+                  {
+                    icon: BookOpen,
+                    title: "AI for Homework Help",
+                    description:
+                      "Instant explanations and guidance for assignments.",
+                  },
+                  {
+                    icon: Users,
+                    title: "AI for Learning Support",
+                    description:
+                      "Generate practice exercises and learning games.",
+                  },
+                  {
+                    icon: BarChart,
+                    title: "AI for Tracking Progress",
+                    description:
+                      "Understand areas of strength and improvement.",
+                  },
+                  {
+                    icon: Home,
+                    title: "AI for Engagement",
+                    description:
+                      "Make learning interactive, fun, and personalized.",
+                  },
+                  {
+                    icon: Heart,
+                    title: "AI for Parent Empowerment",
+                    description:
+                      "Support your child confidently without stress.",
+                  },
                 ].map((item, index) => {
                   const IconComponent = item.icon;
                   return (
-                    <Card key={index} className="hover:shadow-lg transition-all duration-300">
+                    <Card
+                      key={index}
+                      className="hover:shadow-lg transition-all duration-300"
+                    >
                       <CardContent className="p-6">
                         <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mb-4">
                           <IconComponent className="w-6 h-6 text-white" />
                         </div>
-                        <h3 className="text-xl font-semibold mb-3 text-purple-600">{item.title}</h3>
-                        <p className="text-muted-foreground">{item.description}</p>
+                        <h3 className="text-xl font-semibold mb-3 text-purple-600">
+                          {item.title}
+                        </h3>
+                        <p className="text-muted-foreground">
+                          {item.description}
+                        </p>
                       </CardContent>
                     </Card>
                   );
@@ -115,29 +183,39 @@ const ParentsPage = () => {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Next Step</h2>
               <p className="text-xl text-purple-100 mb-8">
-                Shift from homework stress to confident learning guidance with AI.
+                Shift from homework stress to confident learning guidance with
+                AI.
               </p>
-              
-              <Button size="lg" className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-6 text-lg group mb-12">
+
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-6 text-lg group mb-12"
+              >
                 Support Your Child's Success
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-                <div className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg">
-                  <Globe className="w-6 h-6 text-purple-300" />
+                <a
+                  href="mailto:hello@everydayailabs.com"
+                  className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
+                >
+                  <Mail className="w-6 h-6 text-purple-300" />
                   <div className="text-left">
-                    <p className="font-semibold">Visit</p>
-                    <p className="text-sm">EverydayAiLabs.com</p>
+                    <p className="font-semibold">Email Us</p>
+                    <p className="text-sm">hello@everydayailabs.com</p>
                   </div>
-                </div>
-                <div className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg">
+                </a>
+                <a
+                  href="tel:+919159007007"
+                  className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
+                >
                   <Phone className="w-6 h-6 text-pink-300" />
                   <div className="text-left">
-                    <p className="font-semibold">Call</p>
+                    <p className="font-semibold">Call Us</p>
                     <p className="text-sm">+91-9159007007</p>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>

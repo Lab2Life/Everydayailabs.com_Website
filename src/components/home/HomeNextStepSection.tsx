@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import {
   ArrowRight,
   Phone,
-  Globe,
+  Mail,
   Search,
   Users,
   GraduationCap,
@@ -52,9 +52,11 @@ const HomeNextStepSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Next Step</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              Start your next chapter with Us
+            </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              One choice today can shift your tomorrow:
+              One choice today can shape a brighter tomorrow
             </p>
           </div>
 
@@ -114,18 +116,14 @@ const HomeNextStepSection = () => {
                   Call +91-9159007007
                 </Button>
               </a>
-              <a
-                href="https://www.everydayailabs.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="mailto:hello@everydayailabs.com">
                 <Button
                   variant="outline"
                   size="lg"
                   className="text-lg px-8 py-6"
                 >
-                  <Globe className="w-5 h-5 mr-2" />
-                  Visit EverydayAiLabs.com
+                  <Mail className="w-5 h-5 mr-2" />
+                  Connect with us: hello@everydayailabs.com
                 </Button>
               </a>
             </div>

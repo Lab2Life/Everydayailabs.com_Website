@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import {
   ArrowRight,
   Phone,
-  Globe,
+  Mail,
   Calendar,
   CheckCircle,
   Users,
@@ -74,18 +74,14 @@ const AwarenessNextStepSection = () => {
                   Call +91-9159007007
                 </Button>
               </a>
-              <a
-                href="https://www.everydayailabs.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="mailto:hello@everydayailabs.com">
                 <Button
                   variant="outline"
                   size="lg"
                   className="text-lg px-8 py-6 border-cyan-500 text-cyan-600"
                 >
-                  <Globe className="w-5 h-5 mr-2" />
-                  Visit EverydayAiLabs.com
+                  <Mail className="w-5 h-5 mr-2" />
+                  Connect with us: hello@everydayailabs.com
                 </Button>
               </a>
             </div>
@@ -98,9 +94,6 @@ const AwarenessNextStepSection = () => {
                   {" "}
                   think of EverydayAiLabs.com first."
                 </span>
-              </p>
-              <p className="text-cyan-600 font-semibold mt-2">
-                📍 EverydayAiLabs.com | +91-9159007007
               </p>
             </div>
           </div>

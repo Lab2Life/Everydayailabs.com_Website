@@ -19,7 +19,7 @@ const WhyAINonNegotiable = () => {
       icon: TrendingDown,
       stat: "Lost Growth",
       title: "MSME Impact",
-      description: "MSMEs lose growth by skipping AI-powered visibility and efficiency."
+      description: "MSMEs lose growth by skipping AI powered visibility and efficiency."
     }
   ];
 

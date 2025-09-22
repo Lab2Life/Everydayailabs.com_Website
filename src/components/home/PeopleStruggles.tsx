@@ -6,7 +6,7 @@ const PeopleStruggles = () => {
     {
       icon: AlertTriangle,
       title: "Complex AI",
-      description: "AI feels too complex, I don't know where to start."
+      description: "AI feels too complex for me, I don't know where to start."
     },
     {
       icon: Clock,
@@ -21,7 +21,7 @@ const PeopleStruggles = () => {
     {
       icon: GraduationCap,
       title: "Skills Gap",
-      description: "Freshers join us, but lack the right AI skills."
+      description: "Freshers join us, but most of them lack the right AI skills."
     },
     {
       icon: XCircle,

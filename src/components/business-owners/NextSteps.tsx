@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Phone, Globe, Building } from "lucide-react";
+import { ArrowRight, Phone, Mail, Building } from "lucide-react";
 import { useState } from "react";
 import BookingModal from "@/components/ui/booking-modal";
 
@@ -66,20 +66,28 @@ const NextSteps = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-            <div className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg">
-              <Globe className="w-6 h-6 text-green-300" />
+            <a
+              href="mailto:hello@everydayailabs.com"
+              className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
+            >
+              <Mail className="w-6 h-6 text-green-300" />
               <div className="text-left">
-                <p className="font-semibold">Visit Us</p>
-                <p className="text-sm text-green-200">EverydayAiLabs.com</p>
+                <p className="font-semibold">Email Us</p>
+                <p className="text-sm text-green-200">
+                  hello@everydayailabs.com
+                </p>
               </div>
-            </div>
-            <div className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg">
+            </a>
+            <a
+              href="tel:+919159007007"
+              className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
+            >
               <Phone className="w-6 h-6 text-emerald-300" />
               <div className="text-left">
                 <p className="font-semibold">Call Us</p>
                 <p className="text-sm text-green-200">+91-9159007007</p>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="mt-12 pt-8 border-t border-white/20">

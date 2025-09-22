@@ -12,7 +12,7 @@ const HowWeDifferHome = () => {
     {
       icon: Zap,
       title: "Everyday Results",
-      description: "We deliver everyday results, not one-time events."
+      description: "We deliver everyday results, not one time events."
     },
     {
       icon: Users,
@@ -22,7 +22,7 @@ const HowWeDifferHome = () => {
     {
       icon: Settings,
       title: "Complete Ecosystem",
-      description: "We blend awareness + application + consistency in one place."
+      description: "We blend awareness, application, consistency in one place."
     },
     {
       icon: Diamond,

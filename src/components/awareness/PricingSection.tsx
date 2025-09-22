@@ -4,7 +4,10 @@ import { IndianRupee, Clock, Users, Monitor } from "lucide-react";
 
 const PricingSection = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-green-50 to-emerald-50">
+    <section
+      id="pricing-section"
+      className="py-16 bg-gradient-to-b from-green-50 to-emerald-50"
+    >
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">

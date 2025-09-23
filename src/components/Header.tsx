@@ -98,7 +98,7 @@ const Header = () => {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden min-[1284px]:flex items-center space-x-8">
+            <nav className="hidden min-[1400px]:flex items-center space-x-8">
               <Link
                 to="/"
                 className="text-foreground hover:text-primary transition-smooth"
@@ -182,7 +182,7 @@ const Header = () => {
             </nav>
 
             {/* CTA Button */}
-            <div className="hidden min-[1284px]:flex items-center space-x-4">
+            <div className="hidden min-[1400px]:flex items-center space-x-4">
               <Button
                 variant="gradient"
                 size="default"
@@ -194,7 +194,7 @@ const Header = () => {
 
             {/* Mobile Menu Button */}
             <button
-              className="min-[1284px]:hidden p-2"
+              className="min-[1400px]:hidden p-2"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? (
@@ -217,7 +217,7 @@ const Header = () => {
           />
 
           {/* Menu Panel */}
-          <div className="fixed inset-0 z-[999999] flex flex-col min-[1284px]:hidden">
+          <div className="fixed inset-0 z-[999999] flex flex-col min-[1400px]:hidden">
             {/* Menu Header */}
             <div className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 px-4 py-3 flex items-center justify-between">
               <div className="flex items-center space-x-2">

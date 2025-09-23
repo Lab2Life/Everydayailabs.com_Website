@@ -110,7 +110,7 @@ const HomeNextStepSection = () => {
                 <Button
                   variant="gradient"
                   size="lg"
-                  className="text-lg px-8 py-6"
+                  className="text-lg px-8 py-6 hover:scale-105 transition-all duration-300 hover:shadow-lg"
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   Call +91-9159007007
@@ -120,7 +120,7 @@ const HomeNextStepSection = () => {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="text-lg px-8 py-6"
+                  className="text-lg px-8 py-6 hover:bg-primary hover:text-white transition-all duration-300 hover:scale-105"
                 >
                   <Mail className="w-5 h-5 mr-2" />
                   Connect with us: hello@everydayailabs.com

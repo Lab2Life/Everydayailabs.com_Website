@@ -221,7 +221,7 @@ const OurServicesSpectrum = () => {
                   <Button
                     variant="outline"
                     size="sm"
-                    className="mt-auto"
+                    className="mt-auto hover:bg-primary hover:text-white transition-all duration-300 hover:scale-105"
                     asChild
                   >
                     <Link to={service.href}>
@@ -312,7 +312,7 @@ const OurServicesSpectrum = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="bg-white/10 border-white/30 text-white hover:bg-white/20"
+                className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:scale-105 transition-all duration-300"
                 asChild
               >
                 <Link to="/about">
@@ -323,7 +323,7 @@ const OurServicesSpectrum = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="bg-white/10 border-white/30 text-white hover:bg-white/20"
+                className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:scale-105 transition-all duration-300"
                 onClick={handleBookingClick}
               >
                 Book a Consultation

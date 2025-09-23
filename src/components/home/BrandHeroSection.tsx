@@ -44,7 +44,7 @@ const BrandHeroSection = () => {
             <Button
               variant="gradient"
               size="xl"
-              className="text-xl px-10 py-6 group"
+              className="text-xl px-10 py-6 group hover:scale-105 transition-all duration-300 hover:shadow-lg"
               asChild
             >
               <Link to="/about">
@@ -55,7 +55,7 @@ const BrandHeroSection = () => {
             <Button
               variant="outline"
               size="xl"
-              className="text-xl px-10 py-6"
+              className="text-xl px-10 py-6 hover:bg-primary hover:text-white transition-all duration-300 hover:scale-105"
               asChild
             >
               <Link to="/services">Explore Our Services</Link>

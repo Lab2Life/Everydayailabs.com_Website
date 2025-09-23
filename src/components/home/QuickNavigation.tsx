@@ -115,12 +115,12 @@ const QuickNavigation = () => {
               return (
                 <Card
                   key={index}
-                  className="hover:shadow-xl transition-all duration-300 hover:-translate-y-2 h-full"
+                  className="hover:shadow-xl transition-all duration-300 hover:-translate-y-2 h-full group hover:border-primary/50"
                 >
                   <CardContent className="p-6 h-full flex flex-col">
                     <div className="text-center mb-6">
                       <div
-                        className={`w-16 h-16 bg-gradient-to-r ${category.color} rounded-full flex items-center justify-center mx-auto mb-4`}
+                        className={`w-16 h-16 bg-gradient-to-r ${category.color} rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}
                       >
                         <Icon className="w-8 h-8 text-white" />
                       </div>
@@ -138,7 +138,7 @@ const QuickNavigation = () => {
                           key={linkIndex}
                           variant="ghost"
                           size="sm"
-                          className="w-full justify-start text-left hover:bg-accent/50"
+                          className="w-full justify-start text-left hover:bg-accent/50 hover:text-primary transition-colors duration-200"
                           asChild={!link.isModal}
                           onClick={
                             link.isModal ? handleBookingClick : undefined
@@ -174,7 +174,7 @@ const QuickNavigation = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="bg-white/10 border-white/30 text-white hover:bg-white/20"
+                className="bg-white/10 border-white/30 text-white hover:bg-white/20 hover:scale-105 transition-all duration-300"
                 onClick={handleBookingClick}
               >
                 Book Free Consultation

@@ -7,23 +7,24 @@ const HowWeDiffer = () => {
     {
       icon: Target,
       title: "Ground Reality",
-      description: "Customer reviews = unfiltered truth."
+      description: "Reviews from customers reveal the unfiltered truth.",
     },
     {
       icon: Diamond,
       title: "Business DNA",
-      description: "Owner's values + legacy."
+      description: "Built on the owner’s core values and legacy.",
     },
     {
       icon: MessageSquare,
       title: "Audience Language",
-      description: "We speak to your customers, not just to you."
+      description: "We speak to your customers, not just to you.",
     },
     {
       icon: Users,
       title: "Competitor Research",
-      description: "We study competitors, create content that helps you standout."
-    }
+      description:
+        "We study competitors, create content that helps you standout.",
+    },
   ];
 
   return (

@@ -1,9 +1,12 @@
+import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { IndianRupee, Clock, FileText } from "lucide-react";
+import BookingModal from "@/components/ui/booking-modal";
 
 const AuditPricingSection = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <section id="pricing-section" className="py-16">
       <div className="container mx-auto px-4">
@@ -73,6 +76,7 @@ const AuditPricingSection = () => {
                     variant="gradient"
                     size="lg"
                     className="text-lg px-8 py-6 w-full sm:w-auto bg-gradient-to-r from-blue-600 to-purple-600"
+                    onClick={() => setIsModalOpen(true)}
                   >
                     Book Your Digital Audit
                   </Button>
@@ -82,6 +86,10 @@ const AuditPricingSection = () => {
           </Card>
         </div>
       </div>
+      <BookingModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </section>
   );
 };

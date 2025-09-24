@@ -6,7 +6,7 @@ const WhyNonNegotiable = () => {
     {
       icon: TrendingUp,
       title: "Productivity = Profit",
-      description: "Employees save 1–2 hours a day, directly improving output.",
+      description: "Employees save 1-2 hours a day, directly improving output.",
       benefit: "More work done, higher revenue"
     },
     {
@@ -38,7 +38,7 @@ const WhyNonNegotiable = () => {
               🌍 Why AI Awareness is Non-Negotiable for Businesses
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              In today's competitive landscape, AI literacy isn't optional — it's survival
+              In today's competitive landscape, AI literacy is not optional - it's survival
             </p>
           </div>
 
@@ -72,7 +72,7 @@ const WhyNonNegotiable = () => {
             <div className="bg-white rounded-xl p-8 shadow-lg border border-blue-200">
               <p className="text-lg text-gray-700 mb-4">
                 <span className="font-semibold text-blue-600">The Bottom Line:</span> Companies with AI-aware employees 
-                don't just survive in the digital age — they thrive.
+                don't just survive in the digital age - they thrive.
               </p>
               <p className="text-xl font-bold text-indigo-600">
                 Your competition is already moving. Are you?

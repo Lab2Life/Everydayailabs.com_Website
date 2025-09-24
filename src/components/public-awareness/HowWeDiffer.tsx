@@ -84,7 +84,7 @@ const HowWeDiffer = () => {
                 The EverydayAiLabs Promise
               </h4>
               <p className="text-lg text-gray-700 mb-4">
-                We believe AI should serve people, not intimidate them. Our sessions are designed to empower, not overwhelm.
+                We believe AI should serve people, not intimidate them. Our sessions are designed to empower individuals to make better decisions, solve problems, and live more meaningfully.
               </p>
               <p className="text-teal-600 font-semibold">
                 Human-first AI education → Confidence → Daily improvement

@@ -37,7 +37,7 @@ const HeroSection = () => {
             <span className="font-semibold text-blue-600">
               From confusion to confidence
             </span>{" "}
-            — equip your team to work smarter, faster, and future-ready.
+            - equip your team to work smarter, faster, and future-ready.
           </p>
 
           {/* Description */}

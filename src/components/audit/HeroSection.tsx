@@ -17,7 +17,7 @@ const AuditHeroSection = () => {
             variant="outline"
             className="mb-6 text-lg px-4 py-2 border-blue-500 text-blue-600"
           >
-            EverydayAiLabs – AI Digital Audit
+            EverydayAiLabs - AI Digital Audit
           </Badge>
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">

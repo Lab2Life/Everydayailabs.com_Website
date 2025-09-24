@@ -16,17 +16,17 @@ const WhyTrustUs = () => {
     {
       icon: Star,
       title: "Professional Trust",
-      description: "Earned the trust of professionals at every level — from fresh graduates to C-suite executives."
+      description: "Earned the trust of professionals at every level - from fresh graduates to business owners."
     },
     {
       icon: Award,
       title: "Experience-Driven Content",
-      description: "Our content, tools, and frameworks are built from real-world experience — not theory."
+      description: "Our content, tools, and frameworks are built from real-world experience - not theory."
     }
   ];
 
   const stats = [
-    { number: "500+", label: "Professionals Trained", color: "text-blue-600" },
+    { number: "1500+", label: "Professionals Trained", color: "text-blue-600" },
     { number: "50+", label: "Businesses Served", color: "text-green-600" },
     { number: "100%", label: "Practical Focus", color: "text-purple-600" },
     { number: "24/7", label: "Support Available", color: "text-orange-600" }
@@ -41,7 +41,7 @@ const WhyTrustUs = () => {
               Why Trust Us?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're not just talking about AI — we're living it, teaching it, and proving its value 
+              We're not just talking about AI - we're living it, teaching it, and proving its value 
               every single day across real businesses and real lives.
             </p>
           </div>
@@ -91,7 +91,7 @@ const WhyTrustUs = () => {
                 is backed by proven methodologies and real-world success stories.
               </p>
               <p className="text-blue-600 font-semibold">
-                We don't just teach AI — we live it and prove its value every day.
+                We don't just teach AI - we live it and prove its value every day.
               </p>
             </div>
           </div>

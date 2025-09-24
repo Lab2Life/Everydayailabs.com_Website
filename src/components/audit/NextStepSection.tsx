@@ -39,7 +39,7 @@ const AuditNextStepSection = () => {
                   </div>
                   <h3 className="font-bold mb-2">Get Clarity</h3>
                   <p className="text-muted-foreground">
-                    Receive detailed PDF report in 4 days
+                    Receive detailed report in 4 days
                   </p>
                 </div>
 

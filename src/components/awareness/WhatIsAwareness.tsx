@@ -7,7 +7,7 @@ const WhatIsAwareness = () => {
     {
       icon: Target,
       title: "Practical & Role-Based",
-      description: "Real-world AI tools that simplify daily work — communication, reports, planning, customer interactions."
+      description: "Real-world AI tools that simplify daily work - communication, reports, planning, customer interactions."
     },
     {
       icon: Users,
@@ -17,7 +17,7 @@ const WhatIsAwareness = () => {
     {
       icon: Zap,
       title: "Immediate Skills",
-      description: "Not theoretical. Not technical. Your team gains practical skills they can use the same day."
+      description: "Not only theoretical. Your team gains practical skills they can use the same day."
     }
   ];
 

@@ -91,7 +91,7 @@ const HowWeDiffer = () => {
                 The EverydayAiLabs Difference
               </h4>
               <p className="text-lg text-gray-700 mb-4">
-                We don't just teach AI tools — we transform business operations through empowered employees.
+                We don't just teach AI tools - we transform business operations through empowered employees.
               </p>
               <p className="text-purple-600 font-semibold">
                 Real problems → Practical solutions → Immediate results

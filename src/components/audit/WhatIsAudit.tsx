@@ -31,7 +31,7 @@ const WhatIsAudit = () => {
               What is AI Digital Audit?
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              A 1–2 hour structured review of your business's digital presence, workflows, and tools, 
+              A 1-2 hour structured review of your business's digital presence, workflows, and tools, 
               followed by a clear PDF report on where you stand.
             </p>
           </div>

@@ -97,7 +97,7 @@ const MarketingPage = () => {
                       Before AI
                     </Badge>
                     <div className="space-y-2 text-muted-foreground">
-                      <p>Campaign overwhelm.</p>
+                      <p>Campaign overload.</p>
                       <p>Manual processes.</p>
                       <p>Reactive marketing.</p>
                     </div>

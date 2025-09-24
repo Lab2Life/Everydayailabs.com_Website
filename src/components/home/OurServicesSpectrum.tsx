@@ -68,7 +68,7 @@ const OurServicesSpectrum = () => {
     {
       icon: Users,
       title: "AI Awareness (Business)",
-      description: "Upskill employees with hands-on AI training.",
+      description: "Upskill employees with hands on AI training.",
       href: "/awareness",
       color: "from-blue-500 to-indigo-600",
     },

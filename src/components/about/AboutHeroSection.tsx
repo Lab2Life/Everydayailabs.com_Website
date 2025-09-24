@@ -22,9 +22,9 @@ const AboutHeroSection = () => {
           {/* Core Message */}
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 mb-12 shadow-lg border border-purple-100">
             <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
-              At EverydayAiLabs, we believe AI shouldn't feel{" "}
+              At EverydayAiLabs, we believe AI should not feel{" "}
               <span className="text-red-500 line-through">
-                distant, complex, or overwhelming
+                 Confusing or Complicated
               </span>
               .
               <br className="hidden md:block" />
@@ -50,8 +50,8 @@ const AboutHeroSection = () => {
               </span>
               .
               <br className="hidden md:block" />
-              No jargon. No overload. Just the right tools, applied the right
-              way, so every task feels lighter, smarter, faster.
+               Just the right tools, applied the right
+              way, so every task feels lighter, smarter and faster.
             </p>
           </div>
 

@@ -4,6 +4,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
+import LiveChat from "@/components/LiveChat";
 
 import Index from "./pages/Index";
 import DS365 from "./pages/DS365";
@@ -80,6 +82,11 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <WhatsAppFloatingButton
+          phoneNumber="+919159007007"
+          message="Hello! I'm interested in your AI services."
+        />
+        <LiveChat />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

@@ -8,7 +8,7 @@ const HowItWorksAudit = () => {
       step: "1",
       icon: Play,
       title: "Session",
-      description: "1–2 hour session (online / physical)."
+      description: "1-2 hour session (online / physical mode)."
     },
     {
       step: "2", 
@@ -20,13 +20,13 @@ const HowItWorksAudit = () => {
       step: "3",
       icon: FileText,
       title: "Report Delivery",
-      description: "Within 4 working days, you get your AI Digital Audit Report PDF."
+      description: "Within 4 days, you get your AI Digital Audit Report PDF."
     },
     {
       step: "4",
       icon: MessageSquare,
       title: "Discussion",
-      description: "Optional discussion → decide next action."
+      description: "Optional discussion. Can decide next action."
     }
   ];
 

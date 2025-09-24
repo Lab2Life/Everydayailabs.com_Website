@@ -90,7 +90,7 @@ const HowWeDiffer = () => {
                 Our Edge
               </h4>
               <p className="text-lg text-gray-700 mb-4">
-                We don't just teach AI tools — we transform business operations through owner empowerment.
+                We don't just teach AI tools - we transform business operations through owner empowerment.
               </p>
               <p className="text-emerald-600 font-semibold">
                 Real challenges → Proven solutions → Immediate growth

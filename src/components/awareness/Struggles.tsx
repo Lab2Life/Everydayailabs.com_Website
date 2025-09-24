@@ -38,7 +38,7 @@ const Struggles = () => {
               🔎 Struggles Businesses Face
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              While your competitors embrace AI, these challenges keep your business stuck in the past
+              While your competitors embrace AI, these challenges keep your business stuck in past
             </p>
           </div>
 

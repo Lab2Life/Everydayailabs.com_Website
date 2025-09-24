@@ -90,7 +90,7 @@ const HowWeDiffer = () => {
                 Our Edge
               </h4>
               <p className="text-lg text-gray-700 mb-4">
-                We don't just teach AI tools — we transform management effectiveness through practical implementation.
+                We don't just teach AI tools - we transform management effectiveness through practical implementation.
               </p>
               <p className="text-orange-600 font-semibold">
                 Real challenges → Proven solutions → Immediate impact

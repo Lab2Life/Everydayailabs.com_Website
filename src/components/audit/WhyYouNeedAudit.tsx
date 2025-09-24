@@ -12,7 +12,7 @@ const WhyYouNeedAudit = () => {
     {
       icon: Cog,
       title: "Systems Save Stress",
-      description: "Right tools = smoother workflows, less wasted effort."
+      description: "Right tools helps smoother workflows, less wasted effort."
     },
     {
       icon: IndianRupee,

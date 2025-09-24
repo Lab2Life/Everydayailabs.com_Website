@@ -64,32 +64,32 @@ const CustomAISoftwarePage = () => {
     "Dashboards with real-time insights.",
     "AI-powered assistants and chatbots.",
     "End-to-end builds or integrations with your existing tools.",
-    "A working MVP demo fast — so you see progress from Day 1.",
+    "A working MVP demo fast - so you see progress from Day 1.",
   ];
 
   const processSteps = [
     "Understand your workflow in detail.",
     "Build a quick MVP demo for clarity.",
     "Develop the full solution in collaboration with you.",
-    "Deliver a one-time build + handover (or managed support if needed).",
+    "Deliver a one-time build and handover (or managed support if needed).",
   ];
 
   const differentiators = [
     {
       title: "Pain-driven design",
-      description: "built from your real workflows.",
+      description: "Built from your real workflows.",
     },
     {
       title: "Speed",
-      description: "live MVP demo within days.",
+      description: "Live MVP demo within days.",
     },
     {
       title: "Flexibility",
-      description: "custom integrations with any API.",
+      description: "Custom integrations with any API.",
     },
     {
       title: "Cost clarity",
-      description: "no endless subscriptions, just one solution.",
+      description: "No endless subscriptions, just one solution.",
     },
   ];
 
@@ -102,7 +102,7 @@ const CustomAISoftwarePage = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                EverydayAiLabs –{" "}
+                EverydayAiLabs -{" "}
                 <span className="bg-gradient-primary bg-clip-text text-transparent">
                   Customised AI Software
                 </span>{" "}
@@ -160,8 +160,8 @@ const CustomAISoftwarePage = () => {
                   What is Customised AI Software?
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-                  Instead of forcing your team to adjust to generic tools, we
-                  build software designed around your exact workflow.
+                  We don’t make your team adapt to generic tools - our software
+                  fits your workflow perfectly.
                 </p>
               </div>
 
@@ -380,7 +380,7 @@ const CustomAISoftwarePage = () => {
                 </h2>
                 <p className="text-xl text-muted-foreground">
                   Unlike ready-made SaaS tools, EverydayAiLabs builds your own
-                  system:
+                  system
                 </p>
               </div>
 

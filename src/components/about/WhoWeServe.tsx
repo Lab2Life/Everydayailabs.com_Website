@@ -38,7 +38,7 @@ const WhoWeServe = () => {
     {
       icon: Heart,
       title: "General Public",
-      subtitle: "Everyone Else",
+      subtitle: "Everyone of Us",
       description: "Make life easier, smarter, and stress-free with everyday AI.",
       color: "from-pink-500 to-pink-600",
       benefits: ["Time savings", "Life simplification", "Peace of mind"]
@@ -54,7 +54,7 @@ const WhoWeServe = () => {
               Who We Serve
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From startups to seniors, from students to CEOs — AI has something valuable for everyone. 
+              From Startups to Seniors, from Students to Business Owners - AI has something valuable for everyone. 
               We make sure it reaches you in the right way.
             </p>
           </div>
@@ -118,7 +118,7 @@ const WhoWeServe = () => {
               </h3>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
                 Whether you're running a business, climbing the career ladder, or just trying to make 
-                daily life easier — we have an AI pathway designed specifically for your journey.
+                daily life easier. we have an AI pathway designed specifically for your journey.
               </p>
             </div>
           </div>

@@ -37,7 +37,7 @@ const OurPath = () => {
       title: "AI for Freshers",
       description: "Turn young talent into AI evangelists.",
       details:
-        "Career readiness programs that make new graduates job-ready and future-proof.",
+        "Career readiness programs that make graduates job-ready and future-proof.",
       color: "from-orange-500 to-red-500",
       href: "/career",
     },
@@ -53,10 +53,10 @@ const OurPath = () => {
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
               From your phone to your factory, from your inbox to your industry
-              —
+              -
               <span className="font-semibold text-purple-600">
                 {" "}
-                we've got an AI path for you
+                We have got an AI path for you
               </span>
               .
             </p>
@@ -91,7 +91,7 @@ const OurPath = () => {
                     </div>
                     <Button
                       variant="outline"
-                      className="w-full group-hover:bg-purple-50 group-hover:border-purple-200 transition-all"
+                      className="w-full group-hover:bg-purple-50 group-hover:border-purple-200 hover:text-purple-600 transition-all"
                       onClick={() => (window.location.href = pathway.href)}
                     >
                       Learn More
@@ -108,8 +108,8 @@ const OurPath = () => {
                 Your Journey Starts Here
               </h3>
               <p className="text-lg text-purple-100 max-w-3xl mx-auto mb-6">
-                No matter where you are in your AI journey — complete beginner
-                or advanced user — we have a pathway that meets you exactly
+                No matter where you are in your AI journey - complete beginner
+                or advanced user - we have a pathway that meets you exactly
                 where you are and takes you where you want to go.
               </p>
               <Button

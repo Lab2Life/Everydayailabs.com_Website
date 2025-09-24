@@ -12,7 +12,7 @@ const WhatYouGet = () => {
     {
       icon: FileText,
       title: "Daily Text Posts (365 days)",
-      description: "Fresh, sharp, timely, Google-friendly content."
+      description: "Fresh, sharp, timely and Google friendly content."
     },
     {
       icon: Star,

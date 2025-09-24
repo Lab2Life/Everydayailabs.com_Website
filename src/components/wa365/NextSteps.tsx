@@ -14,8 +14,8 @@ const NextSteps = () => {
             of automated success?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            One decision today gives you 365 days of consistent, stress-free
-            WhatsApp communication
+            One decision today gives you the 365 days of consistentand the most
+            stress-free WhatsApp communication
           </p>
         </div>
 
@@ -47,10 +47,11 @@ const NextSteps = () => {
                   <Button
                     variant="outline"
                     size="xl"
-                    className="border-green-300 text-green-600 hover:bg-green-50"
+                    className="border-green-300 text-green-600 hover:bg-green-50 hover:text-green-600 hover:border-green-400 group"
                   >
                     <Mail className="w-5 h-5 mr-2" />
                     Connect with us: hello@everydayailabs.com
+                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </a>
               </div>

@@ -15,31 +15,31 @@ const OurEssence = () => {
 
   const testimonials = [
     {
-      name: "Sarah Chen",
-      role: "Marketing Director",
-      company: "TechFlow Solutions",
-      text: "EverydayAI transformed our entire marketing workflow. What used to take hours now takes minutes. I finally have time to focus on strategy instead of repetitive tasks.",
+      name: "Sampath Kumar",
+      role: "Senior Software Developer",
+      company: "Renault Nissan",
+      text: "At the early stage of exploring Ai tools, i get to attend Ai Awareness session with EverydayAiLabs, this helped me save lot of time by speeding up my work.",
       rating: 5,
     },
     {
-      name: "Michael Rodriguez",
-      role: "Small Business Owner",
-      company: "Rodriguez Consulting",
-      text: "I was completely overwhelmed by AI until I found EverydayAI. Their approach made everything so simple and practical. My business efficiency has doubled.",
+      name: "Suresh Kumar",
+      role: "Founder",
+      company: "Gadin Meditech",
+      text: "Through Ai Doubt Clearance session our team get specific inputs, and we are able to start using it in our work on everyday basis.",
       rating: 5,
     },
     {
-      name: "Dr. Priya Patel",
-      role: "Professor",
-      company: "State University",
-      text: "The AI awareness training helped me integrate smart tools into my teaching. My students are more engaged, and I spend less time on admin work.",
+      name: "Milton Rajasekar",
+      role: "Speaker",
+      company: "Trainer",
+      text: "In Early 2023, while ai is relatively new, he introduced me to the new world of ai. I feel like a rebirth and today it helped me shape up a lot. Highly recommended.",
       rating: 5,
     },
     {
-      name: "James Thompson",
-      role: "Sales Manager",
-      company: "Growth Dynamics",
-      text: "From lead scoring to automated follow-ups, AI has revolutionized how our team works. We're closing more deals while working fewer hours.",
+      name: "Rajarajan",
+      role: "CEO",
+      company: "MPK Oil",
+      text: "I wanted to train my team with Ai. With simple , step by step inputs in Tamil, our team started using gradually. Results are exponential.",
       rating: 5,
     },
   ];
@@ -56,13 +56,13 @@ const OurEssence = () => {
       title: "Vision",
       content: "AI that gives you your life back.",
       description:
-        "Technology should free you to focus on what matters most — relationships, creativity, and joy.",
+        "Technology should free you to focus on what matters the most. RELATIONSHIPS ! CREATIVITY !! JOY !!!",
       color: "from-pink-500 to-red-500",
     },
     {
       icon: Target,
       title: "Mission",
-      content: "Make every day better with AI — simple, practical, consistent.",
+      content: "Make every day better with AI - simple, practical, consistent.",
       description:
         "We turn complex AI into everyday tools that genuinely improve your daily experience.",
       color: "from-blue-500 to-cyan-500",
@@ -72,7 +72,7 @@ const OurEssence = () => {
       title: "Tagline",
       content: "Everyday AI. For everyone, everywhere.",
       description:
-        "No matter who you are or where you are, AI can make your life better — and we'll show you how.",
+        "No matter who you are or where you are, AI can make your life better - and we'll show you how.",
       color: "from-purple-500 to-violet-500",
     },
   ];
@@ -86,7 +86,7 @@ const OurEssence = () => {
               Our Essence
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              These three pillars guide everything we do — from the content we
+              These three pillars guide everything we do - from the content we
               create to the way we serve our community.
             </p>
           </div>
@@ -134,7 +134,7 @@ const OurEssence = () => {
               </h3>
               <p className="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
                 Join thousands who've discovered that AI isn't about replacing
-                humans — it's about giving humans the freedom to be more human.
+                humans. it's about giving humans the freedom to be more human !
               </p>
 
               {/* Testimonial Carousel */}

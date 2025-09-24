@@ -73,8 +73,8 @@ const WhatMakesUsDifferent = () => {
               </h3>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
                 Technology should adapt to humans, not the other way around. 
-                We bridge the gap between complex AI capabilities and everyday needs, 
-                making sure everyone can benefit from this revolution.
+                We bridge the gap between complex AI capabilities & everyday needs, 
+                making sure everyone can benefit from AI revolution.
               </p>
             </div>
           </div>

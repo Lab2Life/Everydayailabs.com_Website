@@ -43,7 +43,7 @@ const WhyNonNegotiable = () => {
             Why WhatsApp Automation is <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">Non-Negotiable Today</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            "Your customers live on WhatsApp. If your business isn't systematic there, you risk being forgotten. Automation today ensures every message strengthens your brand tomorrow."
+            "Your customers live on WhatsApp. If your business is not systematic there, you are at risk. Automation today ensures every message strengthens your brand tomorrow."
           </p>
         </div>
         

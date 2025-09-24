@@ -70,7 +70,7 @@ const SeniorsPage = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {[
-                  "Feeling overwhelmed by constantly changing technology",
+                  "Feeling lost by constantly changing technology",
                   "Worried about online safety and privacy",
                   "Struggling with smartphone features and apps",
                   "Missing out on digital conveniences",

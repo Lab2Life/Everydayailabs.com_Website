@@ -73,7 +73,7 @@ const PricingSection = () => {
                 </div>
               </div>
 
-              <div className="bg-green-50 rounded-lg p-6 border border-green-200">
+              { <div className="bg-green-50 rounded-lg p-6 border border-green-200">
                 <h4 className="text-lg font-semibold text-green-700 mb-3">
                   💡 ROI Calculation
                 </h4>
@@ -81,15 +81,16 @@ const PricingSection = () => {
                   <p>• Investment: ₹5,000 (one-time)</p>
                   <p>• Daily savings: 20 employees × 2 hrs = 40 hrs/day</p>
                   <p>
-                    • Monthly value: ₹6,00,000/ Significant increase in team
+                    • Monthly value: Significant increase in team
                     productivity and efficiency
                   </p>
                   <p className="font-semibold text-green-700 text-base pt-2">
-                    ROI: 12,000% in the first month/ Unprecedented return on
+                    ROI: Unexpected return on
                     investment, typically within the very first month.
                   </p>
                 </div>
-              </div>
+              </div> 
+               }
             </CardContent>
           </Card>
 

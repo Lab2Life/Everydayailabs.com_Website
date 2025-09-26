@@ -40,11 +40,51 @@ const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
     "General Consultation",
   ];
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("Booking submitted:", formData);
-    // You can integrate with your booking system here
+
+    try {
+      // Create the payload in the format required by your endpoint
+      const payload = {
+        Name: formData.name,
+        Email: formData.email,
+        Phone: formData.phone,
+        Service: formData.service,
+        MoreDetails: formData.message,
+      };
+
+      // Log the payload for debugging
+      console.log("Sending payload:", payload);
+
+      // Use the proxy endpoint to avoid CORS issues
+      const response = await fetch("/EAI_FORM", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (response.ok) {
+        console.log("Booking submitted successfully");
+        // Optionally show success message to user
+        alert(
+          "Thank you! Your booking has been submitted successfully. We'll contact you soon."
+        );
+      } else {
+        console.error("Failed to submit booking. Status:", response.status);
+        alert(
+          "Sorry, we couldn't submit your booking at the moment. Please try again later."
+        );
+      }
+    } catch (error) {
+      console.error("Error submitting booking:", error);
+      alert(
+        "Sorry, we couldn't submit your booking at the moment. Please try again later."
+      );
+    }
+
+    // Close the modal after submission
     onClose();
   };
 
@@ -86,7 +126,7 @@ const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
                   Full Name *
                 </label>
                 <Input
-                  placeholder="Your full name"
+                  placeholder="Tell us your name to start your AI journey"
                   value={formData.name}
                   onChange={(e) => handleInputChange("name", e.target.value)}
                   required
@@ -100,7 +140,7 @@ const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
                   </label>
                   <Input
                     type="email"
-                    placeholder="your@email.com"
+                    placeholder="Your inbox awaits AI magic ! enter email."
                     value={formData.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
                     required
@@ -112,7 +152,7 @@ const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
                     Phone *
                   </label>
                   <Input
-                    placeholder="+91-9876543210"
+                    placeholder="Let us reach you"
                     value={formData.phone}
                     onChange={(e) => handleInputChange("phone", e.target.value)}
                     required

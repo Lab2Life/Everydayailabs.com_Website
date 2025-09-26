@@ -106,14 +106,15 @@ const HomeNextStepSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <a href="tel:+919159007007">
+              <a href="tel:+917314851888">
                 <Button
                   variant="gradient"
                   size="lg"
-                  className="text-lg px-8 py-6 hover:scale-105 transition-all duration-300 hover:shadow-lg"
+                  className="text-lg px-8 py-6 bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call +91-9159007007
+                  Call +91-7314851888
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
               <a href="mailto:hello@everydayailabs.com">

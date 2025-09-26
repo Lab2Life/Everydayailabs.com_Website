@@ -12,7 +12,7 @@ const HowWeDifferAudit = () => {
     {
       icon: FileText,
       title: "Simple, Friendly Reporting",
-      description: "Only actionable points, no fluff."
+      description: "Only actionable points, nothing that is unnecessary."
     }
   ];
 

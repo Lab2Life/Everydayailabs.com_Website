@@ -5,7 +5,7 @@ const PathwayLevels = () => {
     {
       icon: Award,
       level: "Foundation",
-      title: "Certified AI Officer – Foundation",
+      title: "Certified AI Officer - Foundation",
       description: "Learn to use AI confidently for daily tasks, automation, and problem-solving",
       color: "from-green-500 to-emerald-500",
       bgColor: "from-green-50 to-emerald-50",
@@ -14,7 +14,7 @@ const PathwayLevels = () => {
     {
       icon: Users,
       level: "Practitioner", 
-      title: "Certified AI Officer – Practitioner",
+      title: "Certified AI Officer - Practitioner",
       description: "Learn to apply AI across workflows, optimise systems, and deliver measurable results",
       color: "from-blue-500 to-cyan-500",
       bgColor: "from-blue-50 to-cyan-50",
@@ -23,7 +23,7 @@ const PathwayLevels = () => {
     {
       icon: Target,
       level: "Strategist",
-      title: "Certified AI Officer – Strategist", 
+      title: "Certified AI Officer - Strategist", 
       description: "Learn to lead AI adoption, align teams, and build long-term AI strategies",
       color: "from-purple-500 to-indigo-500",
       bgColor: "from-purple-50 to-indigo-50",
@@ -39,7 +39,7 @@ const PathwayLevels = () => {
             What you <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">get?</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-2">
-            \"Capability Pathway → Certified Growth → Strategic Leadership\"
+            "Capability Pathway → Certified Growth → Strategic Leadership"
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Each stage sharpens skills, deepens capability, and proves expertise with certification

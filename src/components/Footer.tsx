@@ -127,11 +127,11 @@ const Footer = () => {
                 <span className="text-sm">hello@everydayailabs.com</span>
               </a>
               <a
-                href="tel:+919159007007"
+                href="tel:+917314851888"
                 className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-smooth cursor-pointer"
               >
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">+91 9159007007</span>
+                <span className="text-sm">+91 73148 51888</span>
               </a>
               <a
                 href="https://maps.google.com/?q=39,+Chinnaiya+Pillai+St,+Maravaneri,+Salem,+Tamil+Nadu+636007"

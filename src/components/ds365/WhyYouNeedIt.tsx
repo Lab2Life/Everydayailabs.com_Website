@@ -9,7 +9,7 @@ const WhyYouNeedIt = () => {
     },
     {
       stat: "Instant Trust",
-      description: "If your profile looks alive, customers trust you instantly."
+      description: "If your profile looks alive and active, customers trust you instantly."
     },
     {
       stat: "Better ROI",

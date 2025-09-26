@@ -175,8 +175,8 @@ const TeachingPage = () => {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Next Step</h2>
               <p className="text-xl text-blue-100 mb-8">
-                Transform from administrative challenges into teaching excellence
-                with AI.
+                Transform from administrative challenges into teaching
+                excellence with AI.
               </p>
 
               <Button
@@ -199,8 +199,8 @@ const TeachingPage = () => {
                   </div>
                 </a>
                 <a
-                  href="tel:+919159007007"
-                  className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
+                  href="tel:+917314851888"
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:from-primary/90 hover:to-secondary/90 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   <Phone className="w-6 h-6 text-indigo-300" />
                   <div className="text-left">

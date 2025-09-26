@@ -8,8 +8,17 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    proxy: {
+      "/EAI_FORM": {
+        target: "https://savetron.2440066.xyz",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/EAI_FORM/, "/EAI_FORM"),
+      },
+    },
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [react(), mode === "development" && componentTagger()].filter(
+    Boolean
+  ),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

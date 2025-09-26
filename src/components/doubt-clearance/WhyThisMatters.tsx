@@ -6,23 +6,25 @@ const WhyThisMatters = () => {
     {
       icon: ArrowRight,
       title: "Awareness is the first step",
-      description: "but clarity in action drives results."
+      description: "but clarity in decisive action drives lasting results.",
     },
     {
       icon: Shield,
       title: "Employee Support",
-      description: "Employees feel supported, not left alone after the first workshop."
+      description:
+        "Employees feel supported, not left alone after the first workshop.",
     },
     {
       icon: TrendingUp,
       title: "Instant Confidence Boost",
-      description: "When doubts vanish, confidence and adoption increase instantly."
+      description: "When doubts vanish, confidence and adoption increases.",
     },
     {
       icon: IndianRupee,
       title: "Compounded ROI",
-      description: "You get compounded ROI from the first AI awareness investment."
-    }
+      description:
+        "You get compounded ROI from the first AI awareness investment.",
+    },
   ];
 
   return (

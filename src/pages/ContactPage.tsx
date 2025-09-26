@@ -23,6 +23,7 @@ import {
   CheckCircle,
   Globe,
   Calendar,
+  MessageCircle,
 } from "lucide-react";
 
 const ContactPage = () => {
@@ -35,39 +36,42 @@ const ContactPage = () => {
     {
       icon: Phone,
       title: "Call Us",
-      description: "Speak directly with our AI experts",
-      info: "+91-9159007007",
+      href: "tel:+917314851888",
+      description: "+91 73148 51888",
+      isModal: false,
+      color: "from-primary/10 to-primary/20",
+      info: "Mon-Fri: 9:00 AM - 6:00 PM IST",
       action: "Call Now",
-      color: "from-green-500 to-emerald-600",
-      href: "tel:+919159007007",
     },
     {
       icon: Mail,
       title: "Email Us",
-      description: "Send us your questions anytime",
-      info: "hello@everydayailabs.com",
-      action: "Send Email",
-      color: "from-blue-500 to-indigo-600",
       href: "mailto:hello@everydayailabs.com",
+      description: "hello@everydayailabs.com",
+      isModal: false,
+      color: "from-blue-500/10 to-blue-500/20",
+      info: "We respond within 24 hours",
+      action: "Send Email",
     },
     {
-      icon: MessageSquare,
-      title: "WhatsApp",
-      description: "Quick chat for immediate support",
-      info: "+91-9159007007",
-      action: "WhatsApp Us",
-      color: "from-green-400 to-green-600",
-      href: "https://wa.me/919159007007",
+      icon: MessageCircle,
+      title: "WhatsApp Us",
+      href: "https://wa.me/917314851888",
+      description: "+91 73148 51888",
+      isModal: false,
+      color: "from-green-500/10 to-green-500/20",
+      info: "Available 24/7",
+      action: "Chat Now",
     },
     {
       icon: Calendar,
-      title: "Book Meeting",
-      description: "Schedule a consultation call",
-      info: "Free 30-min session",
-      action: "Book Now",
-      color: "from-purple-500 to-violet-600",
+      title: "Book Consultation",
       href: "#",
+      description: "Schedule a free consultation",
       isModal: true,
+      color: "from-purple-500/10 to-purple-500/20",
+      info: "30-minute strategy session",
+      action: "Book Now",
     },
   ];
 
@@ -255,15 +259,15 @@ const ContactPage = () => {
                       </h3>
                       <div className="space-y-4">
                         <a
-                          href="tel:+919159007007"
-                          className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-smooth cursor-pointer"
+                          href="tel:+917314851888"
+                          className="flex items-center p-4 bg-card border rounded-lg hover:shadow-md transition-shadow"
                         >
                           <Phone className="w-5 h-5 text-primary" />
-                          <span>+91-9159007007</span>
+                          <span>+91 73148 51888</span>
                         </a>
                         <a
                           href="mailto:hello@everydayailabs.com"
-                          className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-smooth cursor-pointer"
+                          className="flex items-center p-4 bg-card border rounded-lg hover:shadow-md transition-shadow"
                         >
                           <Mail className="w-5 h-5 text-primary" />
                           <span>hello@everydayailabs.com</span>
@@ -272,7 +276,7 @@ const ContactPage = () => {
                           href="https://maps.google.com/?q=39,+Chinnaiya+Pillai+St,+Maravaneri,+Salem,+Tamil+Nadu+636007"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-smooth cursor-pointer"
+                          className="flex items-center p-4 bg-card border rounded-lg hover:shadow-md transition-shadow"
                         >
                           <MapPin className="w-5 h-5 text-primary" />
                           <span>
@@ -280,7 +284,7 @@ const ContactPage = () => {
                             Nadu 636007
                           </span>
                         </a>
-                        <div className="flex items-center space-x-3">
+                        <div className="flex items-center p-4 bg-card border rounded-lg hover:shadow-md transition-shadow">
                           <Clock className="w-5 h-5 text-primary" />
                           <span>Mon-Fri: 9:00 AM - 6:00 PM IST</span>
                         </div>

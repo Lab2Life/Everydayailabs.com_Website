@@ -17,7 +17,7 @@ const WhatIsDoubtClearance = () => {
     {
       icon: Settings,
       title: "Implementation Focused",
-      description: "Clear real roadblocks, not just theory."
+      description: "Clear real everyday roadblocks, not just theory."
     }
   ];
 
@@ -31,10 +31,10 @@ const WhatIsDoubtClearance = () => {
               What is the AI Doubt Clearance Session?
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              A focused, industry-specific, team-oriented workshop designed to clear real implementation roadblocks.
+              A focused, industry-specific and team-oriented workshop that is designed to clear real implementation roadblocks.
             </p>
             <p className="text-lg text-muted-foreground">
-              Unlike awareness sessions (broad and general), this is <span className="font-semibold text-orange-600">personalised to your team's daily workflow, goals, and challenges.</span>
+              Unlike general awareness sessions, this is <span className="font-semibold text-orange-600">personalised to your team's daily workflow, goals, and challenges.</span>
             </p>
           </div>
 

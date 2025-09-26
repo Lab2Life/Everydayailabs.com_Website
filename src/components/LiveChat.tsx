@@ -106,7 +106,7 @@ const LiveChat: React.FC = () => {
 
     const fullMessage = `Chat Conversation from ${userInfo.name} (${userInfo.email}):\n\n${conversation}`;
     const encodedMessage = encodeURIComponent(fullMessage);
-    const whatsappUrl = `https://wa.me/919159007007?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/917314851888?text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -131,7 +131,7 @@ ${conversation}`);
   };
 
   return (
-    <div className="fixed bottom-24 right-6 z-50">
+    <div className="fixed bottom-20 right-6 z-50">
       {/* Chat Toggle Button */}
       {!isOpen && (
         <button

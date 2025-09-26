@@ -245,7 +245,7 @@ const MarketingPage = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
                 <a
                   href="mailto:hello@everydayailabs.com"
-                  className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:from-primary/90 hover:to-secondary/90 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   <Mail className="w-6 h-6 text-emerald-300" />
                   <div className="text-left">
@@ -254,8 +254,8 @@ const MarketingPage = () => {
                   </div>
                 </a>
                 <a
-                  href="tel:+919159007007"
-                  className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
+                  href="tel:+917314851888"
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:from-primary/90 hover:to-secondary/90 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   <Phone className="w-6 h-6 text-teal-300" />
                   <div className="text-left">

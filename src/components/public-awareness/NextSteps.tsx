@@ -66,20 +66,21 @@ const NextSteps = () => {
               <Mail className="w-6 h-6 text-emerald-300" />
               <div className="text-left">
                 <p className="font-semibold">Email Us</p>
-                <p className="text-sm text-emerald-200">
+                <p className="text-sm text-emerald-200 hover:text-white transition-colors">
                   hello@everydayailabs.com
                 </p>
               </div>
             </a>
-            <a
-              href="tel:+919159007007"
-              className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
-            >
-              <Phone className="w-6 h-6 text-teal-300" />
-              <div className="text-left">
-                <p className="font-semibold">Call Us</p>
-                <p className="text-sm text-emerald-200">+91-9159007007</p>
-              </div>
+            <a href="tel:+917314851888">
+              <Button
+                variant="gradient"
+                size="xl"
+                className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 group"
+              >
+                <Phone className="w-5 h-5 mr-2" />
+                Call +91-7314851888
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
             </a>
           </div>
 

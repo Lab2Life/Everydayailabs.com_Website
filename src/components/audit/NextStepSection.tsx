@@ -58,21 +58,22 @@ const AuditNextStepSection = () => {
 
           <div className="text-center space-y-6">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+919159007007">
+              <a href="tel:+917314851888">
                 <Button
                   variant="gradient"
-                  size="lg"
-                  className="text-lg px-8 py-6 bg-gradient-to-r from-blue-600 to-purple-600"
+                  size="xl"
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 group"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call +91-9159007007
+                  Call +91-7314851888
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
               <a href="mailto:hello@everydayailabs.com">
                 <Button
-                  variant="outline"
+                  variant="gradient"
                   size="lg"
-                  className="text-lg px-8 py-6 border-blue-500 text-blue-600"
+                  className="text-lg px-8 py-6 bg-gradient-to-r from-blue-600 to-purple-600"
                 >
                   <Mail className="w-5 h-5 mr-2" />
                   Connect with us: hello@everydayailabs.com

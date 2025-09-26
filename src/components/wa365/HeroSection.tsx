@@ -44,14 +44,14 @@ const HeroSection = () => {
           </div>
 
           <div className="flex justify-center">
-            <a href="tel:+919159007007">
+            <a href="tel:+917314851888">
               <Button
                 variant="gradient"
                 size="xl"
                 className="bg-gradient-to-r from-green-600 to-emerald-600 group"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Call +91-9159007007
+                Call +91-7314851888
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </a>

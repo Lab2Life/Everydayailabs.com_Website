@@ -6,31 +6,31 @@ const WhatYouGet = () => {
     {
       icon: Mail,
       title: "AI for Workflows",
-      description: "Write mails, reports, and presentations in minutes.",
+      description: "Write Professional mails, reports, and presentations in minutes.",
       timeframe: "Learn in 30 mins"
     },
     {
       icon: Settings,
       title: "AI for Productivity",
-      description: "Automate reminders, data entry, and follow-ups.",
+      description: "Automate reminders, data entry process, and follow-ups.",
       timeframe: "Implement same day"
     },
     {
       icon: BarChart,
       title: "AI for Decision Support",
-      description: "Quick analysis of sales, operations, and risks.",
+      description: "Get quick and reliable analysis of sales, operations, and risks.",
       timeframe: "Use immediately"
     },
     {
       icon: Users,
       title: "AI for Collaboration",
-      description: "Share updates and track projects with less effort.",
+      description: "Share the updates and track projects with less effort.",
       timeframe: "Team-wide adoption"
     },
     {
       icon: Wrench,
       title: "Your First 5 Workplace Tools",
-      description: "Guided demos tailored to business roles.",
+      description: "Experience guided demos tailored to business roles.",
       timeframe: "Ready to use"
     }
   ];

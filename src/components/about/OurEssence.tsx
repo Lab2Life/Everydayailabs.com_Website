@@ -62,7 +62,7 @@ const OurEssence = () => {
     {
       icon: Target,
       title: "Mission",
-      content: "Make every day better with AI - simple, practical, consistent.",
+      content: "Make every day better with AI - Simple, Practical, Consistent.",
       description:
         "We turn complex AI into everyday tools that genuinely improve your daily experience.",
       color: "from-blue-500 to-cyan-500",

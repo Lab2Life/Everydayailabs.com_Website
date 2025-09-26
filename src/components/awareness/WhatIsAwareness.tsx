@@ -17,7 +17,7 @@ const WhatIsAwareness = () => {
     {
       icon: Zap,
       title: "Immediate Skills",
-      description: "Not only theoretical. Your team gains practical skills they can use the same day."
+      description: "Not only theoretical and technical. Your team gains practical skills they can use the same day."
     }
   ];
 
@@ -62,8 +62,8 @@ const WhatIsAwareness = () => {
                   Before AI
                 </Badge>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Over-dependence on managers.</p>
-                  <p>Delays.</p>
+                  <p>Dependence on managers.</p>
+                  <p>Missed deadlines.</p>
                   <p>Wasted effort.</p>
                 </div>
               </div>

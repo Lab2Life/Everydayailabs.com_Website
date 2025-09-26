@@ -56,19 +56,19 @@ const NextStepSection = () => {
 
           <div className="text-center space-y-6">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+919159007007">
+              <a href="tel:+917314851888">
                 <Button
                   variant="gradient"
                   size="lg"
                   className="text-lg px-8 py-6"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call +91-9159007007
+                  Call +91-7314851888
                 </Button>
               </a>
               <a href="mailto:hello@everydayailabs.com">
                 <Button
-                  variant="outline"
+                  variant="gradient"
                   size="lg"
                   className="text-lg px-8 py-6"
                 >

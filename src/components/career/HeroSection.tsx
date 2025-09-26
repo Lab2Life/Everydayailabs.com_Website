@@ -21,7 +21,7 @@ const CareerHeroSection = () => {
           </Badge>
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent">
-            Don't just graduate. Get job-ready.
+            Don't just graduate. Get your job-ready.
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 italic">

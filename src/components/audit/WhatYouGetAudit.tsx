@@ -22,7 +22,7 @@ const WhatYouGetAudit = () => {
     {
       icon: Zap,
       title: "Quick Wins",
-      description: "2-3 immediate changes you can make."
+      description: "2-3 important and immediate changes you can make."
     },
     {
       icon: ArrowRight,

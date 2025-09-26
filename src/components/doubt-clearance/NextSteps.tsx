@@ -33,28 +33,28 @@ const NextSteps = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4">Next Step</h3>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-                Transform your team from hesitation to confident AI adoption
-                with one personalized session
+                Transform your team to a confident AI adoption with one
+                personalized session
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                <a href="tel:+919159007007">
+                <a href="tel:+917314851888">
                   <Button
                     variant="gradient"
                     size="xl"
                     className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 group"
                   >
                     <Phone className="w-5 h-5 mr-2" />
-                    Call +91-9159007007
+                    Call +91-7314851888
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </a>
 
                 <a href="mailto:hello@everydayailabs.com">
                   <Button
-                    variant="outline"
+                    variant="gradient"
                     size="xl"
-                    className="border-orange-300 text-orange-600 hover:bg-orange-50"
+                    className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 group"
                   >
                     <Mail className="w-5 h-5 mr-2" />
                     Connect with us: hello@everydayailabs.com

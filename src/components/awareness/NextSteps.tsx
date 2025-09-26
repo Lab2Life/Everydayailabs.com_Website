@@ -46,20 +46,23 @@ const NextSteps = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <Button
               size="lg"
-              className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-8 py-6 text-lg group"
+              className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-8 py-6 text-lg group mx-auto"
               onClick={handleBookingClick}
             >
               Book Your Team Session Now
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-white/30 text-white hover:bg-white/10 px-8 py-6 text-lg"
-              onClick={handleBookingClick}
-            >
-              Schedule a Consultation
-            </Button>
+            <a href="tel:+917314851888">
+              <Button
+                variant="gradient"
+                size="xl"
+                className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 group"
+              >
+                <Phone className="w-5 h-5 mr-2" />
+                Call +91-7314851888
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
@@ -70,19 +73,21 @@ const NextSteps = () => {
               <Mail className="w-6 h-6 text-blue-300" />
               <div className="text-left">
                 <p className="font-semibold">Email Us</p>
-                <p className="text-sm text-blue-200">
+                <p className="text-sm text-blue-200 hover:text-white transition-colors">
                   hello@everydayailabs.com
                 </p>
               </div>
             </a>
             <a
-              href="tel:+919159007007"
+              href="tel:+917314851888"
               className="flex items-center justify-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
             >
               <Phone className="w-6 h-6 text-green-300" />
               <div className="text-left">
                 <p className="font-semibold">Call Us</p>
-                <p className="text-sm text-blue-200">+91-9159007007</p>
+                <p className="text-sm text-blue-200 hover:text-white transition-colors">
+                  +91-7314851888
+                </p>
               </div>
             </a>
           </div>

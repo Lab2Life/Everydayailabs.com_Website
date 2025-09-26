@@ -448,8 +448,8 @@ const CustomAISoftwarePage = () => {
                   </a>
                   <span className="hidden sm:block">|</span>
                   <a
-                    href="tel:+919159007007"
-                    className="flex items-center hover:text-blue-200 transition-colors"
+                    href="tel:+917314851888"
+                    className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:from-primary/90 hover:to-secondary/90 transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
                     <Phone className="w-5 h-5 mr-2" />
                     <span>+91-9159007007</span>

@@ -30,22 +30,22 @@ const NextSteps = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                <a href="tel:+919159007007">
+                <a href="tel:+917314851888">
                   <Button
                     variant="gradient"
                     size="xl"
                     className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 group"
                   >
                     <Phone className="w-5 h-5 mr-2" />
-                    Call +91-9159007007
+                    Call +91-7314851888
                   </Button>
                 </a>
 
                 <a href="mailto:hello@everydayailabs.com">
                   <Button
-                    variant="outline"
+                    variant="gradient"
                     size="xl"
-                    className="border-purple-300 text-purple-600 hover:bg-purple-50"
+                    className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 group"
                   >
                     <Mail className="w-5 h-5 mr-2" />
                     Connect with us: hello@everydayailabs.com

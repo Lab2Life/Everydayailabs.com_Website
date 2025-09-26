@@ -5,27 +5,30 @@ const HowWeDiffer = () => {
     {
       icon: Target,
       title: "Not generic",
-      description: "Every session is customised to your industry and employee objectives",
-      color: "from-orange-500 to-amber-500"
+      description:
+        "Every session is customised to your industry and employee objectives",
+      color: "from-orange-500 to-amber-500",
     },
     {
       icon: MessageCircle,
-      title: "We don't just \"show tools\"",
+      title: 'We don\'t just "show tools"',
       description: "We clear roadblocks for your exact tasks",
-      color: "from-amber-500 to-yellow-500"
+      color: "from-amber-500 to-yellow-500",
     },
     {
       icon: Award,
       title: "Real-world experience",
-      description: "More than a decade of business experience → we speak the language of employees and owners",
-      color: "from-yellow-500 to-orange-500"
+      description:
+        "10+ years of experience, speaking the language of employees and owners.",
+      color: "from-yellow-500 to-orange-500",
     },
     {
       icon: Users,
       title: "Supportive delivery",
-      description: "Simple, friendly approach that builds confidence, not intimidation",
-      color: "from-orange-600 to-amber-600"
-    }
+      description:
+        "Simple, friendly approach that builds confidence, not intimidation",
+      color: "from-orange-600 to-amber-600",
+    },
   ];
 
   return (

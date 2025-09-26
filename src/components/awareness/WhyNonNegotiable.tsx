@@ -7,26 +7,28 @@ const WhyNonNegotiable = () => {
       icon: TrendingUp,
       title: "Productivity = Profit",
       description: "Employees save 1-2 hours a day, directly improving output.",
-      benefit: "More work done, higher revenue"
+      benefit: "More work done, higher revenue",
     },
     {
       icon: Heart,
       title: "Retention = Confidence",
-      description: "Teams see AI as a helper, not a threat.",
-      benefit: "Happier employees, lower turnover"
+      description: "Teams see AI as a supportive helper, not a threatening force.",
+      benefit: "Happier employees, lower turnover",
     },
     {
       icon: Zap,
       title: "Competitiveness = Survival",
-      description: "Businesses with AI-ready staff outpace those stuck in manual mode.",
-      benefit: "Market leadership, not following"
+      description:
+        "Businesses with AI-ready staff outpace those stuck in manual mode.",
+      benefit: "Market leadership, not following",
     },
     {
       icon: Lightbulb,
       title: "Culture = Growth",
-      description: "Creates a mindset of innovation and adaptability across the company.",
-      benefit: "Future-ready organization"
-    }
+      description:
+        "Creates a mindset of innovation and adaptability across the company.",
+      benefit: "Future-ready organization",
+    },
   ];
 
   return (

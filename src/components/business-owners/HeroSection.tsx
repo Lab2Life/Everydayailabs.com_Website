@@ -1,5 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Building, Crown } from "lucide-react";
+import {
+  ArrowRight,
+  Building,
+  Crown,
+  Clock,
+  Brain,
+  Settings,
+} from "lucide-react";
 
 const HeroSection = () => {
   const scrollToWhatIs = () => {
@@ -14,8 +21,8 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            <Crown className="w-4 h-4" />
+          <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold mb-6 group">
+            <Crown className="w-4 h-4 group-hover:rotate-12 group-hover:scale-110 transition-transform duration-300" />
             AI for Business Owners
           </div>
 
@@ -29,16 +36,43 @@ const HeroSection = () => {
             <span className="font-semibold text-green-600">
               Let AI handle the load, while you focus on growth.
             </span>
-            <br className="hidden md:block" />
-            AI isn't about replacing people. It's about giving you back time,
-            clarity, and control.
           </p>
+
+          {/* Visual Representation of Key Concepts */}
+          <div className="flex flex-wrap justify-center gap-6 mb-8 max-w-2xl mx-auto">
+            <div className="flex flex-col items-center text-center w-32">
+              <div className="bg-green-100 p-3 rounded-full mb-2">
+                <Clock className="w-6 h-6 text-green-600" />
+              </div>
+              <span className="text-sm font-medium text-muted-foreground">
+                Time Back
+              </span>
+            </div>
+
+            <div className="flex flex-col items-center text-center w-32">
+              <div className="bg-teal-100 p-3 rounded-full mb-2">
+                <Brain className="w-6 h-6 text-teal-600" />
+              </div>
+              <span className="text-sm font-medium text-muted-foreground">
+                Clarity
+              </span>
+            </div>
+
+            <div className="flex flex-col items-center text-center w-32">
+              <div className="bg-emerald-100 p-3 rounded-full mb-2">
+                <Settings className="w-6 h-6 text-emerald-600" />
+              </div>
+              <span className="text-sm font-medium text-muted-foreground">
+                Control
+              </span>
+            </div>
+          </div>
 
           {/* Description */}
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
             A practical program that shows business owners how to use AI as a
-            daily assistant, not a distant tech. It's about simplifying
-            decisions, saving time, and multiplying your business impact.
+            daily assistant. It's about simplifying decisions, saving time, and
+            multiplying your business impact.
           </p>
 
           {/* CTA Buttons */}

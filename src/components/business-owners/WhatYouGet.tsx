@@ -6,33 +6,34 @@ const WhatYouGet = () => {
     {
       icon: Mail,
       title: "AI for Communication",
-      description: "Write messages, proposals, and replies in minutes, not hours.",
-      benefit: "Professional communication at scale"
+      description:
+        "Write messages, proposals, and replies in minutes, not hours.",
+      benefit: "Professional communication at scale",
     },
     {
       icon: Eye,
       title: "AI for Visibility",
       description: "Daily posts, content ideas, and customer touchpoints.",
-      benefit: "Consistent online presence without effort"
+      benefit: "Consistent online presence without effort",
     },
     {
       icon: Settings,
       title: "AI for Productivity",
       description: "Automate reminders, reports, and follow-ups.",
-      benefit: "Time freedom for strategic work"
+      benefit: "Time freedom for strategic work",
     },
     {
       icon: BarChart,
       title: "AI for Decision Making",
       description: "Analyse sales, market trends, and risks instantly.",
-      benefit: "Data-driven business insights"
+      benefit: "Data-driven business insights",
     },
     {
       icon: Users,
       title: "AI for Team Empowerment",
-      description: "Train staff to use AI for their roles.",
-      benefit: "Multiplied team productivity"
-    }
+      description: "Train staffs to effectively use AI for their roles.",
+      benefit: "Multiplied team productivity",
+    },
   ];
 
   return (

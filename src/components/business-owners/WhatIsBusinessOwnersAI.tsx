@@ -20,7 +20,7 @@ const WhatIsBusinessOwnersAI = () => {
       icon: Zap,
       title: "Daily Assistant Partnership",
       description:
-        "AI becomes your reliable business partner for decisions, operations, and growth planning.",
+        "AI becomes your reliable business partner for decisions, operations, and planning.",
     },
   ];
 

@@ -42,7 +42,7 @@ const WhatIsManagersAI = () => {
               It's about{" "}
               <span className="font-semibold text-amber-600">
                 simplifying coordination, automating repetitive tasks, and
-                leading teams more effectively.
+                leading teams effectively.
               </span>
             </p>
           </div>

@@ -156,7 +156,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-12 pt-8 text-center text-muted-foreground">
-          <p>
+          <p> 
             &copy; 2025 EverydayAiLabs. All rights reserved. Everyday AI, for
             everyone, everywhere.
           </p>

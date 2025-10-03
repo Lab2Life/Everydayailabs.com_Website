@@ -2,8 +2,31 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const BrandHeroSection = () => {
+  const [displayText, setDisplayText] = useState("E");
+  const [typingComplete, setTypingComplete] = useState(false);
+  const fullText = "verydayAiLabs";
+
+  useEffect(() => {
+    // Start typewriter effect immediately with "E" already displayed
+    let i = 0;
+    const typingInterval = setInterval(() => {
+      if (i < fullText.length) {
+        setDisplayText("E" + fullText.slice(0, i + 1));
+        i++;
+      } else {
+        clearInterval(typingInterval);
+        setTypingComplete(true);
+      }
+    }, 120); // Typing speed
+
+    return () => {
+      clearInterval(typingInterval);
+    };
+  }, []);
+
   return (
     <section className="relative min-h-screen flex items-center bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
@@ -12,14 +35,25 @@ const BrandHeroSection = () => {
             variant="outline"
             className="mb-8 text-lg px-6 py-3 border-primary/30"
           >
-            EverydayAiLabs
+            {displayText.split("").map((char, index) => (
+              <span
+                key={index}
+                className={
+                  typingComplete && (index === 8 || index === 9) // Positions of 'A' and 'I' in "EverydayAiLabs"
+                    ? "font-bold text-violet-600"
+                    : ""
+                }
+              >
+                {char}
+              </span>
+            ))}
           </Badge>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent leading-normal">
             Everyday AI. For everyone, everywhere.
           </h1>
 
-          <p className="text-2xl md:text-3xl text-muted-foreground mb-8 font-medium">
+          <p className="text-2xl md:text-3xl text-muted-foreground mb-8 font-medium leading-relaxed">
             AI is no longer a luxury. It's{" "}
             <span className="text-primary font-bold">
               survival, growth, and peace of mind

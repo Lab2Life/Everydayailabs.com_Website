@@ -7,26 +7,27 @@ const Struggles = () => {
       icon: Clock,
       title: "Time Drain on Follow-ups",
       description: "I spend more time on follow-ups than actual strategy.",
-      impact: "Strategic thinking suffers from operational overload"
+      impact: "Strategic thinking suffers from operational overload",
     },
     {
       icon: FileText,
       title: "Report & Update Overload",
-      description: "Team updates, reports, and reminders consume my day.",
-      impact: "Lost focus on high-level decision making"
+      description: "Team updates, reports, and reminders consume my entire day.",
+      impact: "Lost focus on high-level decision making",
     },
     {
       icon: BarChart,
       title: "Data Delay Decisions",
-      description: "Decisions feel delayed because I lack real-time data.",
-      impact: "Missed opportunities and slower responses"
+      description: "Decisions feel delayed because I lack access to real time data.",
+      impact: "Missed opportunities and slower responses",
     },
     {
       icon: AlertTriangle,
-      title: "Project Derailment",
-      description: "Projects derail when small tasks aren't tracked efficiently.",
-      impact: "Team productivity and momentum loss"
-    }
+      title: "Project Setback",
+      description:
+        "Projects face setbacks when small tasks aren't tracked efficiently.",
+      impact: "Team productivity and momentum loss",
+    },
   ];
 
   return (
@@ -71,7 +72,7 @@ const Struggles = () => {
           <div className="text-center mt-12">
             <div className="bg-white rounded-xl p-8 shadow-lg border border-orange-200">
               <p className="text-lg text-gray-700 mb-4">
-                <span className="font-semibold text-red-600">The Management Reality:</span> Managers today don't compete with other teams — 
+                <span className="font-semibold text-red-600">The Management Reality:</span> Managers today don't compete with other teams -
                 they compete with time, attention, and clarity.
               </p>
               <p className="text-xl font-bold text-orange-600">

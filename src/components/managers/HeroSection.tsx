@@ -14,8 +14,8 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-            <Target className="w-4 h-4" />
+          <div className="inline-flex items-center gap-2 bg-amber-100 text-amber-700 px-4 py-2 rounded-full text-sm font-semibold mb-6 group">
+            <Target className="w-4 h-4 group-hover:rotate-12 group-hover:scale-110 transition-transform duration-300" />
             AI for Managers
           </div>
 
@@ -32,13 +32,6 @@ const HeroSection = () => {
             <br className="hidden md:block" />
             AI isn't about replacing teams. It's about giving you clarity to
             manage better.
-          </p>
-
-          {/* Description */}
-          <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-            A hands-on program showing managers how to use AI as a daily
-            operational partner. No coding. No complex dashboards. Just better
-            leadership through smart automation.
           </p>
 
           {/* CTA Buttons */}
